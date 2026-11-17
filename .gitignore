@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# PyInstaller Build Artifacts
+build/
+dist/
+_internal/
+Setup.exe
+*.exe
+make_commits.bat

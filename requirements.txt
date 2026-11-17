@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pywebview
+pydantic
+requests
+pyinstaller
+pywin32
+winshell
