@@ -1,4 +1,4 @@
-"""Hardcoded MITRE ATLAS / NIST CSF 2.0 threat signatures for dangerous agent actions."""
+"""Hardcoded MITRE ATLAS / NIST CSF threat signatures for dangerous agent actions."""
 
 from typing import Any, Dict, List
 
