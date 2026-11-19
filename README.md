@@ -5,7 +5,7 @@ An enterprise security middleware designed to intercept, validate, and audit act
 ## Core Features
 
 - **Threat Signature Matching:** Validates `AgentAction` payloads (READ, WRITE, EXECUTE, NETWORK) against a library of known malicious signatures.
-- **MITRE ATLAS & NIST CSF 2.0 Mapping:** Every blocked action is categorized using official MITRE ATLAS and NIST CSF 2.0 frameworks (e.g., blocking `/etc/shadow` reads maps to `AML.T0006` and `PR.AC-4`).
+- **MITRE ATLAS & NIST CSF Mapping:** Every blocked action is categorized using official MITRE ATLAS and NIST CSF frameworks (e.g., blocking `/etc/shadow` reads maps to `AML.T0006` and `PR.AC-4`).
 - **Audit Logging:** All validation attempts (both `ALLOWED` and `BLOCKED`) are logged with timestamps to a local SQLite database (`sentinel_audit.db`).
 - **Real-time Metrics Dashboard:** Provides a REST endpoint (`/api/v1/metrics`) to calculate block rates and view recent threat intelligence.
 - **Desktop & API Modes:** Runs as a native desktop app using PyWebView or can be deployed headlessly as a FastAPI service.
