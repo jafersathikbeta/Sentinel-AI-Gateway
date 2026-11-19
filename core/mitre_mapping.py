@@ -3,7 +3,7 @@
 from typing import Any, Dict, List
 
 # Each signature matches on action_type + target (case-insensitive substring or exact).
-# Framework tags follow MITRE ATLAS and NIST CSF 2.0 naming conventions.
+# Framework tags follow MITRE ATLAS and NIST CSF naming conventions.
 DANGEROUS_SIGNATURES: List[Dict[str, Any]] = [
     {
         "action_type": "EXECUTE",
