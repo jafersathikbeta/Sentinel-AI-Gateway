@@ -60,32 +60,3 @@ If an agent attempts a destructive command, Sentinel intercepts it:
    uvicorn src.api:app --host 127.0.0.1 --port 8000
    ``` 
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
