@@ -15,7 +15,7 @@ STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
 
 app = FastAPI(
     title="Sentinel AI Gateway",
-    description="Enterprise security gateway for validating agent actions against MITRE ATLAS / NIST CSF 2.0",
+    description="Enterprise security gateway for validating agent actions against MITRE ATLAS / NIST CSF",
     version="1.0.0",
 )
 
